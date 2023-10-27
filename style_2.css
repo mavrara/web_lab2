@@ -1,0 +1,19 @@
+*{
+	font-family: Gill Sans, sans-serif;
+}
+
+table.t_ran{
+    width: 50%;
+    border-collapse:collapse;
+    border-spacing:0;
+    height: auto;
+   }
+   table.t_ran,table.t_ran td, table.t_ran th {
+    border: 2px solid #000000;
+   }
+   table.t_ran td {
+    padding: 3px;
+    width: 50px;
+    height: 70px;
+	text-align: center;
+   }
