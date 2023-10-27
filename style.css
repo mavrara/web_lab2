@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: Gill Sans, sans-serif;
+	font-size: 20px;
+	background-color: #E6E6FA
+    }
+    
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+    
+    input {
+        border: 3px solid #DDA0DD;
+        width: 250px;
+        height: 50px;
+        outline: none;
+        border-radius: 5px;
+        margin-top: 10px;
+		background-color: #FFFFFF
+    }
+    
+    input+input {
+    margin-top: 5px;
+    }
+    
+    button {
+        width: 250px;
+        height: 50px;
+        background-color: #DDA0DD;
+        border: none;
+		border-radius: 5px;
+        margin-top: 15px;
+        cursor: pointer;
+        
+    }
